@@ -20,7 +20,7 @@
     <link rel="Stylesheet" href="css/style.css">
 </head>
 <body>
-
+    <!-- header contains the logo and navigation bar -->
     <header>
         <img class='logo' src='images/EvaKitchen.png' alt="EvaKitchen"/>
         <nav>
@@ -29,29 +29,31 @@
             </a>
             <ul class="hide-mobile show-desktop" >
                 <li><img class="exit" src="images/exit.png" alt="exit"></li>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Menu</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li><a href="contact us.html">Contact Us</a></li>
+                    <li><a href="about us.html">About Us</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="#">Home</a></li>
             </ul>
         </nav>
     </header>
     <hr>
-    <!--container-->
+    <!-- this container contains bg image, the heading write-ups, order now button,
+    working hour, get direction and call online containers -->
     <div class=bgImage>
             <div class='bgText' >
                 <h2>Your Favorite <br/>
                     Food Delivered <br/>
                     Hot and Fresh</h2>
-                <p>Satisfy your craving by getting the food you want
-                    delivered to you fast. EvaKitchen is now available in
+                <p>Satisfy your craving by getting the food you want <br>
+                    delivered to you fast. EvaKitchen is now available in <br>
                     selected areas in Enugu.<br/>
                 </p> 
-                <div class="btn">
+                <div class="order-now-btn">
                     <a href="#" class="order-now"> Order Now   
-                       <img src="images/arror icon.png" alt="arror">
+                       <img src="images/arror icon.png" alt="arror" height="11px">
                     </a>
                 </div>
+                <img class="show_desk hide_mob" src="images/shawarma.png" alt="Shawarma Dish">
             </div> 
             <div class="info">
                 <ul >
@@ -82,10 +84,12 @@
 
 
     </div>
+        <!-- about us container -->
         <div class="about">
             <a href="#"> ABOUT US</a>
             <h4>All you need to know about us</h4>
         </div>
+        <!-- contains first jellof dish, write-up and learn more button-->
         <div class="about-us-container">
             <div class="about-img-container">
                 <img class="about-img" src="images/about us rice.png" alt="about dish">  
@@ -111,19 +115,20 @@
                 </div>   
             </div>
         </div>
+        <!-- contains second background image -->
         <div class="second-bg-img">
             <p>
                 Looking for the best
                 affordable hospitality in town?
             </p>
             <div class="button">
-                <a href="#">Book Now</a>
+              <center><a href="#" style="color:white;" >Book Now</a> </center> 
             </div>
         </div>
-
+    <!-- contains the 3 container with pick meals, checkout and fast delivery-->
     <div class="big-container">
-        <a href="#">ORDER AND DELIVERY</a>
-        <P>Our delivery service is top notch</P>
+        <p>ORDER AND DELIVERY</p>
+        <h4 class="delivery-rate" >Our delivery service is top notch</h4>
         <div class="order-delivery">
             <div class="order-list">
                 <a href="#">
@@ -159,15 +164,20 @@
             </div>
         </div>
     </div>
+
+    <!-- menu container with the list of dishes -->
+    <br><br>
+    <center><a class="menu" href="#"> MENU </a></center>
+     
+        <P class="menu-p">Choose from our most popular menu</P>
     <div class="menu-list">
-        <center> <a href="#"> MENU </a></center>
-        <P>Choose from our most popular menu</P>
+        
         <div class="food-list">
             <img src="images/friedRice.png" alt="FRIED_RICE">
             <div class="menu-name">
                 <div class="menu-price">
                     <h3>Fried Rice</h3>
-                    <h3 style="color: rgb(241, 147, 85);">#1000</h3>
+                    <h3 style="color: #FF7913;">#1000</h3>
                 </div>
                 <p>Fried rice with chicken laps</p>
                 <a href=""><div class="order_now">Order Now</div></a>
@@ -179,7 +189,7 @@
             <div class="menu-name">
                 <div class="menu-price">
                     <h3>Jellof Rice</h3>
-                    <h3 style="color: rgb(241, 147, 85);">#800</h3>
+                    <h3 style="color: #FF7913;">#800</h3>
                 </div>
                 <p>Nigerian Party jellof</p>
                 <a href=""><div class="order_now">Order Now</div></a>
@@ -191,19 +201,21 @@
             <div class="menu-name">
                 <div class="menu-price">
                     <h3>Egusi Soup</h3>
-                    <h3 style="color: rgb(241, 147, 85);">#1500</h3>
+                    <h3 style="color: #FF7913;">#1500</h3>
                 </div>
                 <p>Egusi soup with plenty meat</p>
                 <a href=""><div class="order_now">Order Now</div></a>
             </div>
 
         </div>
+    </div>
+    <div class="menu-list2">
         <div class="food-list">
             <img src="images/oraSoup.png" alt="ORA_SOUP">
             <div class="menu-name">
                 <div class="menu-price">
                     <h3>Ora Soup</h3>
-                    <h3 style="color: rgb(241, 147, 85);">#1500</h3>
+                    <h3 style="color: #FF7913;">#1500</h3>
                 </div>
                 <p>Ora soup with fish, beef and semo</p>
                 <a href=""><div class="order_now">Order Now</div></a>
@@ -215,7 +227,7 @@
             <div class="menu-name">
                 <div class="menu-price">
                     <h3>White Soup</h3>
-                    <h3 style="color: rgb(241, 147, 85);">#1200</h3>
+                    <h3 style="color: #FF7913;">#1200</h3>
                 </div>
                 <p>White rice and stew with chicken</p>
                 <a href=""><div class="order_now">Order Now</div></a>
@@ -227,36 +239,45 @@
             <div class="menu-name">
                 <div class="menu-price">
                     <h3>Okro Soup</h3>
-                    <h3 style="color: rgb(241, 147, 85);">#1000</h3>
+                    <h3 style="color: #FF7913;">#1000</h3>
                 </div>
                 <p>Okro soup with plenty meat and fish</p>
                 <a href=""><div class="order_now">Order Now</div></a>
             </div> 
         </div> <br>
     </div> 
+    <!-- the container with the footer content -->
     <div class="footer-container">
         <div class='footer-container-content'>
             <img src="images/EvaKitchen.png" alt="Eva-Kitchen"> <br>
             <br><br>
-            <h3>Menu</h3><br>
-            <p>soup</p><br>
-            <p>Rice</p><br>
-            <p>Meat</p><br><br>
-            <h3>About Us</h3><br>
-            <h3>Opening Hours</h3><br>
-            <p>Monday-Saturday</p><br>
-            <p>10:50am-07:00pm</p><br>
-            <p>Sunday</p><br>
-            <p>11:00am-08:00pm</p><br>
-            <h3>Follow us on social media</h3>
+            <div>
+                <p>Menu</p><br>
+                <p>Breakfast</p><br>
+                <p>Lunch</p><br>
+                <p>Dinner</p><br><br>
+            </div>
+            <div>
+                <p>About Us</p><br>
+            </div>
+            <div>
+                <p>Opening Hours</p><br>
+                <p>Monday-Saturday</p><br>
+                <p>10:50am-07:00pm</p><br>
+                <!-- <p>Sunday</p><br>
+                <p>11:00am-08:00pm</p><br> -->
+            </div>
+            <div>
+                <p>Follow us on social media</p>
+            </div>
         </div> 
         <footer>
-            Copyright 2020 evaKitchen. All right reserved
+            Copyright 2020 @ evaKitchen. All right reserved
         </footer>
         
     </div>
 
-   <!-- </div>-->
+   
 
 
 </body>

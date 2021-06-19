@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+      /* .container{
+        width: 50%;
+      } */
+
+      /* the form styling */
+      #long{
+          background-color: whitesmoke;
+          border: none;
+          width: 40%;
+          padding: 10px;
+          border-radius: 5px;
+          margin-top: 5px;
+      } 
+      #name{
+        background-color: whitesmoke;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        width: 19em;
+        color: black;
+        margin-top: 5px;
+        
+      }
+      #comment{
+        background-color: whitesmoke;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        width: 40%;
+        margin-top: 5px;
+      }
+      #submit{
+        background-color: #FF7913;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        width: 15%;
+        /* font-size: 15px; */
+      } 
+      .firstname{
+        /* float: left;
+        width: 30%;
+        margin-right: -150px; */
+        margin-right: .7em;
+      }
+      .flex{
+        display: flex;
+        width: 100%;
+        /* border: 2px solid black; */
+      }
+      /* end of form styling */
+    </style>
+</head>
+<body>
+    <!-- <label for="form"> -->
+        <h2 style="color: #FF7913;">Let's get in touch </h2> 
+        <br><br>
+    <!-- </label> -->
+    <div class="container">
+        <form action="" method="POST">
+            <div class="flex">
+              <div class="firstname">
+                First Name: <br>
+                <input id="name" type="text" name="firstName" id="" placeholder="Deo"> <br><br>
+              </div> 
+              <div class="lastname">
+                Last Name: <br>
+               <input id="name" type="text" name="lastName" placeholder="John"> <br><br>
+              </div>
+            </div>
+
+            Email: <br>
+            <input id="long" type="text" name="email" placeholder="example@email.com"><br><br>
+            Subject: <br>
+            <input id="long" type="text" name="subject"><br><br>
+            Message: <br>
+            <textarea id="comment" name="" cols="30" rows="7"></textarea><br><br>
+            <input id="submit" type="button" value="Leave us a message" name="submit"> <br>
+
+        </form>
+    </div>
+</body>
+</html>

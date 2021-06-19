@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/contact us.css">
+</head>
+<body>
+    <!-- header contains the logo and navigation bar -->
+    <header>
+        <img class='logo' src='images/EvaKitchen.png' alt="EvaKitchen"/>
+        <nav>
+            <a href="#">
+                <img src="images/hamburger.png" alt="hamburger" class="hamburger">
+            </a>
+            <ul class="hide-mobile show-desktop" >
+                <li><img class="exit" src="images/exit.png" alt="exit"></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="about us.html">About Us</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+     <!-- the code for the background image and write-up -->
+    <div class="container">
+        <h3>
+            We Would Love To Hear From You
+        </h3>
+    </div>
+    <!-- end of backgroun image and write up styling -->
+
+   
+
+    <!-- the informtion about us writing -->
+    <div class="form-info-container">
+        <div class="form-container">
+         <!-- <label for="form"> -->
+            <h2 style="color: #FF7913;">Let's get in touch </h2> 
+            <br><br>
+        <!-- </label> -->
+        <!-- the form code -->
+        
+            <form action="" method="POST">
+                <div class="flex">
+                  <div class="firstname">
+                    First Name: <br>
+                    <input id="name" type="text" name="firstName" id="" placeholder="Deo"> <br><br>
+                  </div> 
+                  <div class="lastname">
+                    Last Name: <br>
+                   <input id="name" type="text" name="lastName" placeholder="John"> <br><br>
+                  </div>
+                </div>
+    
+                Email: <br>
+                <input id="long" type="text" name="email" placeholder="example@email.com"><br><br>
+                Subject: <br>
+                <input id="long" type="text" name="subject"><br><br>
+                Message: <br>
+                <textarea id="comment" name="" cols="30" rows="7"></textarea><br><br>
+                <input id="submit" type="button" value="Leave us a message" name="submit"> <br>
+    
+            </form>
+        </div>
+        <!-- end of form code -->
+
+        <div class="info">
+            <ul >
+                <li>
+                    <div>
+                        10:00am - 07:00pm <br/>
+                        Working Hours</p>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                    <div>
+                            Independence Layout Enugu <br/>
+                            Get Direction
+                    </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div>
+                        +234 7061211353 <br/>
+                        Call Online
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+</div>
+    <!-- end of styling for information about us -->
+
+    <!-- code for the map -->
+    <div id="map"></div>
+    <!-- end of code for the map -->
+
+    <!-- the container with the footer content -->
+    <div class="footer-container">
+        <div class='footer-container-content'>
+            <img src="images/EvaKitchen.png" alt="Eva-Kitchen"> <br>
+            <br><br>
+            <div>
+                <p>Menu</p><br>
+                <p>Breakfast</p><br>
+                <p>Lunch</p><br>
+                <p>Dinner</p><br><br>
+            </div>
+            <div>
+                <p>About Us</p><br>
+            </div>
+            <div>
+                <p>Opening Hours</p><br>
+                <p>Monday-Saturday</p><br>
+                <p>10:50am-07:00pm</p><br>
+                <!-- <p>Sunday</p><br>
+                <p>11:00am-08:00pm</p><br> -->
+            </div>
+            <div>
+                <p>Follow us on social media</p>
+            </div>
+        </div> 
+        <footer>
+            Copyright 2020 @ evaKitchen. All right reserved
+        </footer>
+        
+    </div>
+
+    <script>
+        function myMap(){
+            var mapOption = {
+                center: new google.maps.LatLng(51.5, -0.12),zoom:10,
+                mapTypeId = google.maps.MapTypeId.HYBRID
+            }
+            var map = new google.maps.Map(document.getElementById("map"),mapOptions)
+        }
+    </script>
+    <script src="https://map.googleapis.com/maps/api/js?callback=myMap"></script>
+</body>
+</html>

@@ -1,0 +1,202 @@
+*{
+    padding: 0;
+    margin: 0;
+    /*align-items: center;*/
+    font-family: sans-serif;  
+   
+}
+/* style for header in desktop veiw */
+.exit{
+    width: 10px;
+}
+.hamburger{
+    width: 20px;
+    margin-right: 5px;
+}
+.hamburger{
+    display: none;
+}
+.exit{
+    display: none; 
+}
+.show-desktop{
+       display: inline;
+}
+ header li{
+    float: right;
+  align-content: center;
+}
+
+header li,a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px 5px 20px;
+    
+    
+}
+header a:hover{
+    border-bottom: 2px solid  #FF7913;
+}
+.logo{
+    padding-left: 60px;
+    width: 150px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between; 
+    background-color: white;
+    padding: 20px 10px;
+    position: sticky;
+    top: 0px;
+    z-index: 7;
+}
+/* the end of header styling for desktop */
+
+
+/* styling for the background image */
+.container{
+    width: auto;
+    height: 500px;
+    background-image: url(../images/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+    margin-top: 0px;
+}
+.container h3{
+    font-size: 45px;
+    background-color: transparent;
+    color: white;
+    width: 50%;
+    text-align: left;
+    padding-left: 110px;
+    padding-top: 170px;
+    line-height: 60px;
+}
+/* end of styling for background image */
+
+ /* the form styling */
+ #long{
+    background-color: whitesmoke;
+    border: none;
+    width: 95%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+} 
+#name{
+  background-color: whitesmoke;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  width: 22em;
+  color: black;
+  margin-top: 5px;
+  margin-right: 1em;
+  
+}
+#comment{
+  background-color: whitesmoke;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  width: 95%;
+  margin-top: 5px;
+}
+#submit{
+  background-color: #FF7913;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  width: 35%;
+  /* font-size: 15px; */
+} 
+.flex{
+  display: flex;
+  width: 100%;
+  /* border: 2px solid black; */
+}
+/* end of form styling */
+
+
+/* styling for information about us */
+.info{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 70px;  
+    width: 40%;
+    margin: auto;
+ /* border: 2px solid black;     */
+}
+.info li{
+    list-style-type: none;
+}
+.info li div{
+    padding-top: 30px;
+    text-align: center;
+    width: 200px;
+    height: 60px;
+    background-color:  rgb(250, 240, 220);
+    margin-bottom: 35px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    font-size: 13px;
+    color: black;
+    box-shadow: 1px 1px 15px #c2b5b5; 
+}
+
+/* end of styling for about us information */
+
+.form-info-container{
+    display: flex;
+    /* border: 2px solid black; */
+    padding-left: 12%;
+    /* padding-right: 10%; */
+
+}
+
+/* styling for the map */
+#map{
+    width: auto;
+    height: 350px;
+    /* border: 2px solid black; */
+}
+/* end of styling for the map */
+
+
+/* styling for the footer */
+.footer-container{
+    background-color:#645143; 
+    color: rgb(238, 237, 237);
+    /* margin-top: 15px; */
+}
+.footer-container-content{
+    display: flex;
+    padding: 70px;
+}
+.footer-container-content img{
+    width: 20%;
+    height: 50px;
+    padding-right: 20px;
+}
+.footer-container-content div{
+    width: 15%;
+    text-align: left;
+    
+    margin-left: 30px;
+}
+.footer-container-content p{
+    padding: 8px;
+    line-height: 7px;
+    font-size: 13px;
+}
+footer{
+    text-align: center;
+    font-size: 14px;
+    padding-bottom: 40px;
+    color: whitesmoke;
+}
+/* end of footer styling */
